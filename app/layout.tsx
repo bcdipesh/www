@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
+import MainFooter from "@/components/main-footer";
 import MainHeader from "@/components/main-header";
 import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
@@ -29,17 +30,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" suppressHydrationWarning>
+      <body
+        className={`${inter.className} flex min-h-dvh flex-col antialiased`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          <div className="max-w-2xl lg:max-w-xl mx-auto">
+          <div className="max-w-2xl lg:max-w-xl mx-auto flex flex-col min-h-dvh px-4 md:px-0 ">
             <MainHeader />
-            {children}
+            <main className="flex-1">{children}</main>
+            <MainFooter />
           </div>
         </ThemeProvider>
       </body>
