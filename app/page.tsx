@@ -15,11 +15,10 @@ export default function HomePage() {
           A software engineer from the US based in Falls Church.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et iusto
-          deleniti quam labore amet voluptates quae! Hic assumenda ut obcaecati
-          dolor, asperiores deserunt nesciunt! Consequatur facilis eveniet
-          reiciendis quibusdam iure, quos nam quia aliquam, nulla ipsa eos natus
-          laudantium deserunt.
+          I am a Software Engineer at BizFlow Corp., where I am dedicated to
+          building the future of low-code/no-code application platforms and
+          Business Process Automation. My work empowers businesses to streamline
+          their operations and enhance efficiency.
         </p>
 
         <Button className="mt-8 px-8 rounded-full group" asChild>

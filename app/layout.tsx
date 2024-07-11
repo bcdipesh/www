@@ -40,9 +40,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="max-w-2xl lg:max-w-xl mx-auto flex flex-col min-h-dvh px-4 md:px-0 ">
+          <div className="container md:max-w-2xl flex flex-col min-h-dvh">
             <MainHeader />
-            <main className="flex-1">{children}</main>
+            <main className="flex-1 pb-16">{children}</main>
             <MainFooter />
           </div>
         </ThemeProvider>

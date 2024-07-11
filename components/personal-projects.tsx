@@ -1,14 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-
 const projects: {
   href: string;
   title: string;
@@ -16,15 +8,21 @@ const projects: {
   image: string;
 }[] = [
   {
+    title: "Jotion",
+    href: "https://note-taking-app-tan.vercel.app/",
+    description: "My take on the popular note-taking web app Notion.",
+    image: "/jotion.png",
+  },
+  {
     title: "Memorable Messages",
-    href: "https://github.com/bcdipesh/memorable-messages",
+    href: "https://nextmemorablemessages.netlify.app/",
     description:
       "A web app that automatically sends personalized wishes to loved ones on special occasions.",
     image: "/memorable_messages.png",
   },
   {
     title: "Snippet Forge",
-    href: "https://github.com/bcdipesh/snippet-forge",
+    href: "https://snippet-forge.netlify.app/",
     description:
       "A web app to facilitate quick copying and pasting of frequently used code snippets.",
     image: "/snippet-forge.png",
@@ -33,7 +31,7 @@ const projects: {
 
 export default function PersonalProjects() {
   return (
-    <section className="pb-14">
+    <section className="pb-16">
       <h2 className="scroll-m-20 text-3xl font-semibold tracking-tight first:mt-0">
         Personal Projects
       </h2>
@@ -41,26 +39,26 @@ export default function PersonalProjects() {
         Below is a selection of recent projects that I&apos;ve worked on.
       </p>
 
-      <div className="grid md:grid-cols-2 gap-8 mt-14">
-        {projects.map((project, index) => (
-          <Link href={project.href} key={index}>
-            <Card className="bg-secondary">
-              <CardHeader>
-                <CardTitle>{project.title}</CardTitle>
-                <CardDescription className="">
-                  {project.description}
-                </CardDescription>
-              </CardHeader>
-
-              <CardContent>
-                <Image
-                  width={800}
-                  height={400}
-                  src={project.image}
-                  alt={project.title}
-                />
-              </CardContent>
-            </Card>
+      <div className="lg:w-[170%] lg:-ml-[35%] grid grid-cols-1 md:grid-cols-2 grid-flow-dense gap-8 mt-16">
+        {projects.map((project) => (
+          <Link
+            href={project.href}
+            key={project.title}
+            className="flex flex-col justify-center bg-secondary hover:bg-slate-200/70 transition-colors rounded-xl p-8"
+          >
+            <div className="relative rounded-xl mb-4 shadow-project">
+              <Image
+                width={450}
+                height={240}
+                src={project.image}
+                alt={project.title}
+                className="rounded-xl bg-cover"
+              />
+            </div>
+            <h3 className="font-semibold tracking-tight text-xl">
+              {project.title}
+            </h3>
+            <p className="text-muted-foreground">{project.description}</p>
           </Link>
         ))}
       </div>
