@@ -24,7 +24,7 @@ const workExperience: {
 export default function InfoPage() {
   return (
     <>
-      <section className="pb-14">
+      <section className="pb-16">
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl border-b pb-6">
           Information
         </h1>
@@ -84,14 +84,14 @@ export default function InfoPage() {
       </section>
 
       <section>
-        <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0 mb-6">
+        <h2 className="scroll-m-20 text-3xl mb-16 font-semibold tracking-tight first:mt-0">
           Experience
         </h2>
 
         {workExperience.map((experience) => (
           <div
             key={experience.company}
-            className="flex gap-4 py-6 [&:not(:last-child)]:border-b"
+            className="flex gap-8 py-6 [&:not(:last-child)]:border-b"
           >
             <Image
               className="w-16 h-16 rounded-xl"
@@ -102,10 +102,10 @@ export default function InfoPage() {
             />
 
             <div className="flex flex-col">
-              <h4 className="scroll-m-20 text-xl font-semibold tracking-tight">
+              <h4 className="scroll-m-20 text-xl font-semibold tracking-tight mb-2">
                 {experience.company}
               </h4>
-              <p className="text-secondary-foreground mb-4">
+              <p className="text-secondary-foreground mb-8">
                 {experience.role}
               </p>
               <p className="text-sm font-mono text-muted-foreground">

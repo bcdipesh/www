@@ -3,7 +3,7 @@ export default function MainFooter() {
 
   return (
     <footer>
-      <p className="text-sm text-muted-foreground py-8 border-t">
+      <p className="text-sm text-muted-foreground py-14 border-t">
         &copy; 2020 - {now.getFullYear()} / Dipesh B C
       </p>
     </footer>

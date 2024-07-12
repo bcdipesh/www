@@ -52,10 +52,10 @@ export default function PersonalProjects() {
                 height={240}
                 src={project.image}
                 alt={project.title}
-                className="rounded-xl bg-cover"
+                className="rounded-xl bg-cover mb-4"
               />
             </div>
-            <h3 className="font-semibold tracking-tight text-xl">
+            <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">
               {project.title}
             </h3>
             <p className="text-muted-foreground">{project.description}</p>
