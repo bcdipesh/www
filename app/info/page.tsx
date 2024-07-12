@@ -89,7 +89,10 @@ export default function InfoPage() {
         </h2>
 
         {workExperience.map((experience) => (
-          <div className="flex gap-4 py-6 [&:not(:last-child)]:border-b">
+          <div
+            key={experience.company}
+            className="flex gap-4 py-6 [&:not(:last-child)]:border-b"
+          >
             <Image
               className="w-16 h-16 rounded-xl"
               width={56}
