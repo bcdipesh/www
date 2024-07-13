@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${inter.className} flex min-h-dvh flex-col antialiased w-screen`}
+        className={`${inter.className} flex min-h-dvh flex-col antialiased overflow-y-scroll`}
       >
         <ThemeProvider
           attribute="class"
