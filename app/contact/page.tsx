@@ -21,10 +21,10 @@ export default function ContactPage() {
             Email
           </h3>
           <Link
-            href="mailto:dipeshbc1997@gmail.com"
+            href="mailto:dipeshbc1996@gmail.com"
             className="text-muted-foreground"
           >
-            dipeshbc1997@gmail.com
+            dipeshbc1996@gmail.com
           </Link>
         </section>
         <section>
@@ -43,20 +43,12 @@ export default function ContactPage() {
           <h3 className="scroll-m-20 text-xl font-semibold tracking-tight mb-2">
             LinkedIn
           </h3>
-          <Link href="#" target="_blank" className="text-muted-foreground">
-            dipeshbc
-          </Link>
-        </section>
-        <section>
-          <h3 className="scroll-m-20 text-xl font-semibold tracking-tight mb-2">
-            X
-          </h3>
           <Link
-            href="https://x.com/b_c_dipesh"
+            href="https://linkedin.com/in/dipeshbc1996"
             target="_blank"
-            className="text-sm text-muted-foreground"
+            className="text-muted-foreground"
           >
-            @b_c_dipesh
+            dipeshbc1996
           </Link>
         </section>
       </div>
