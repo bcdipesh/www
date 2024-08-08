@@ -9,19 +9,19 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dipesh B C - Software Engineer",
+  title: "Dipesh B C - Full Stack Developer",
   description:
-    "Dipesh B C is a software engineer based in Falls Church, currently building the future of low-code, no-code application platform at BizFlow Corp.",
+    "Dipesh B C is a full stack developer based in the US, currently empowering seamless and efficient customer interactions at PayPal.",
   twitter: {
     card: "summary_large_image",
     creator: "@dipeshbc",
-    title: "Dipesh B C - Software Engineer",
+    title: "Dipesh B C - Full Stack Developer",
   },
   openGraph: {
-    title: "Dipesh B C - Software Engineer",
-    siteName: "Dipesh B C - Software Engineer",
+    title: "Dipesh B C - Full Stack Developer",
+    siteName: "Dipesh B C - Full Stack Developer",
   },
-  metadataBase: new URL("https://dipeshbc.netlify.app"),
+  metadataBase: new URL("https://dipeshbc.vercel.app"),
 };
 
 export default function RootLayout({

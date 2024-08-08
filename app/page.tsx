@@ -12,13 +12,12 @@ export default function HomePage() {
           Ciao, I&apos;m Dipesh.
         </h1>
         <p className="text-xl mt-2 text-muted-foreground">
-          A software engineer from the US based in Falls Church.
+          A remote full stack developer from the US based.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          I am a Software Engineer at BizFlow Corp., where I am dedicated to
-          building the future of low-code/no-code application platforms and
-          Business Process Automation. My work empowers businesses to streamline
-          their operations and enhance efficiency.
+          I am a Full Stack Developer at PayPal, where I implement new features,
+          resolve defects, develop APIs, and improve React components,
+          empowering seamless and efficient customer interactions.
         </p>
 
         <Button className="mt-16 px-8 rounded-full group" asChild>

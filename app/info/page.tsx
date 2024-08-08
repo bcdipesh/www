@@ -8,16 +8,16 @@ const workExperience: {
   logo: string;
 }[] = [
   {
-    company: "BizFlow Corp.",
-    role: "Software Engineer",
-    date: "Aug 2023 → Today",
-    logo: "/bizflow-logo.jpeg",
+    company: "PayPal",
+    role: "Full Stack Developer",
+    date: "Sep 2022 → Present",
+    logo: "https://paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_74x46.jpg",
   },
   {
-    company: "Friend For You Tech Pvt. Ltd.",
-    role: "Front End Developer",
-    date: "Feb 2020 → Jan 2023",
-    logo: "/friend-for-you-tech-logo.png",
+    company: "eSewa Pvt. Ltd.",
+    role: "Full Stack Java Developer",
+    date: "Nov 2020 → Sep 2022",
+    logo: "/esewa-logo.png",
   },
 ];
 
@@ -30,27 +30,26 @@ export default function InfoPage() {
         </h1>
 
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          I am currently a Software Engineer at BizFlow Corp., where I am
-          dedicated to building the future of low-code/no-code application
-          platforms and Business Process Automation. My work focuses on
-          enhancing user experience and streamlining operations, leading to
-          significant improvements in user engagement and efficiency.
+          I am currently a Full Stack Developer at PayPal., where I implement
+          new features, resolve defects, develop APIs, and improve React
+          components. I also design and develop micro-services, create SQL
+          scripts using Liquibase, and utilize various AWS services.
         </p>
 
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Before joining BizFlow Corp., I was a Front End Developer at Friend
-          For You Tech Pvt. Ltd., where I developed and maintained web
-          applications using React and Redux. My contributions significantly
-          boosted user engagement and revenue by integrating seamless payment
-          APIs and enhancing overall site performance.
+          Before joining PayPal, I worked as a Full Stack Java Developer at
+          eSewa Pvt. Ltd., where I executed the full Software Development Life
+          Cycle (SDLC) for fintech solutions. My work included developing Java
+          applications, orchestrating microservices-based cloud architecture,
+          and utilizing frameworks like Angular.js and Bootstrap.
         </p>
 
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          I started my journey experimenting with Java, Python, and Node
-          (Express) before focusing on front-end technologies. My enthusiasm for
-          crafting reusable and visually appealing components with React has
-          driven my career towards building responsive and scalable Progressive
-          Web Apps.
+          My journey in software development began with a Bachelor of Science in
+          Honors Computing from Leeds Beckett University, where I graduated with
+          First Class Honors. I further enhanced my skills through a Software
+          Engineering Bootcamp at Springboard. I am passionate about leveraging
+          technology to solve problems and continuously improving my craft.
         </p>
 
         <p className="leading-7 [&:not(:first-child)]:mt-6">
@@ -94,7 +93,7 @@ export default function InfoPage() {
             className="flex gap-8 py-6 [&:not(:last-child)]:border-b"
           >
             <Image
-              className="w-16 h-16 rounded-xl"
+              className="w-14 h-10 rounded-xl"
               width={56}
               height={56}
               src={experience.logo}

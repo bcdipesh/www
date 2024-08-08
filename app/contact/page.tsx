@@ -9,9 +9,10 @@ export default function ContactPage() {
 
       <p className="leading-7 [&:not(:first-child)]:mt-6">
         If you'd like to get in touch, you can reach me using the following
-        methods. I am seeking a role in front end web development, ideally with
-        JavaScript (TypeScript) and React, where I can leverage my skills to
-        make a meaningful impact. If you're hiring, let's chat!
+        methods. I am seeking a role in full stack development, ideally with
+        Java, Spring Boot, JavaScript (TypeScript) and React, where I can
+        leverage my skills to make a meaningful impact. If you're hiring, let's
+        chat!
       </p>
 
       <div className="mt-16 grid md:grid-cols-2 gap-8">
@@ -20,10 +21,10 @@ export default function ContactPage() {
             Email
           </h3>
           <Link
-            href="mailto:bcdipeshwork@gmail.com"
+            href="mailto:dipeshbc1997@gmail.com"
             className="text-muted-foreground"
           >
-            bcdipeshwork@gmail.com
+            dipeshbc1997@gmail.com
           </Link>
         </section>
         <section>
@@ -42,12 +43,8 @@ export default function ContactPage() {
           <h3 className="scroll-m-20 text-xl font-semibold tracking-tight mb-2">
             LinkedIn
           </h3>
-          <Link
-            href="https://linkedin.com/in/dipeshbc"
-            target="_blank"
-            className="text-muted-foreground"
-          >
-            in/dipeshbc
+          <Link href="#" target="_blank" className="text-muted-foreground">
+            dipeshbc
           </Link>
         </section>
         <section>
