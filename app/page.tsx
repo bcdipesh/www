@@ -12,7 +12,7 @@ export default function HomePage() {
           Ciao, I&apos;m Dipesh.
         </h1>
         <p className="text-xl mt-2 text-muted-foreground">
-          A remote full stack developer from the US based.
+          A remote full stack developer from the US.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           I am a Full Stack Developer at PayPal, where I implement new features,
